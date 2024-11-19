@@ -1,0 +1,15 @@
+buat repo di github
+
+vite.convig.js = base: '/(nama-repo)/',
+package.json = "homepage": "https://(username).github.io/(nama-repo)/",
+
+win + r (cmd)
+cd (ke folder projek)
+git init
+git remote add origin https://github.com/(username)/(nama-repo).git
+(kalau remote gak bisa) git remote remove origin (kalau remote gak bisa)
+git add .
+git commit -m "bebas isi apa aja"
+git push -u origin main
+npm run build
+npm run deploy
